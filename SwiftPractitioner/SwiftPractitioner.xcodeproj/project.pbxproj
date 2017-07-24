@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7CB15021F259024006CC725 /* HWHAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14E11F259024006CC725 /* HWHAppDelegate.swift */; };
+		F7CB15031F259024006CC725 /* HWHBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14E31F259024006CC725 /* HWHBaseCell.swift */; };
+		F7CB15041F259024006CC725 /* HWHBaseM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14E41F259024006CC725 /* HWHBaseM.swift */; };
+		F7CB15051F259024006CC725 /* HWHBaseNaviC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14E51F259024006CC725 /* HWHBaseNaviC.swift */; };
+		F7CB15061F259024006CC725 /* HWHBaseTabBarC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14E61F259024006CC725 /* HWHBaseTabBarC.swift */; };
+		F7CB15071F259024006CC725 /* HWHBaseV.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14E71F259024006CC725 /* HWHBaseV.swift */; };
+		F7CB15081F259024006CC725 /* HWHBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14E81F259024006CC725 /* HWHBaseVC.swift */; };
+		F7CB15091F259024006CC725 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7CB14EA1F259024006CC725 /* Localizable.strings */; };
+		F7CB150A1F259024006CC725 /* HWHDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14EF1F259024006CC725 /* HWHDataManager.swift */; };
+		F7CB150B1F259024006CC725 /* HWHIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14F01F259024006CC725 /* HWHIconManager.swift */; };
+		F7CB150C1F259024006CC725 /* HWHLanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14F11F259024006CC725 /* HWHLanguageManager.swift */; };
+		F7CB150D1F259024006CC725 /* HWHLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14F21F259024006CC725 /* HWHLocationManager.swift */; };
+		F7CB150E1F259024006CC725 /* HWHStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14F31F259024006CC725 /* HWHStyleManager.swift */; };
+		F7CB150F1F259024006CC725 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7CB14F41F259024006CC725 /* Info.plist */; };
+		F7CB15101F259024006CC725 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7CB14F91F259024006CC725 /* LaunchScreen.strings */; };
+		F7CB15121F259024006CC725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CB14FC1F259024006CC725 /* LaunchScreen.storyboard */; };
+		F7CB15141F259117006CC725 /* HWHControlsC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15131F259117006CC725 /* HWHControlsC.swift */; };
+		F7CB15161F259123006CC725 /* HWHDeviceC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15151F259123006CC725 /* HWHDeviceC.swift */; };
+		F7CB15181F259133006CC725 /* HWHNewTechC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15171F259133006CC725 /* HWHNewTechC.swift */; };
+		F7CB151A1F260F9F006CC725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CB15191F260F9F006CC725 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7CB14CA1F258FF3006CC725 /* SwiftPractitioner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPractitioner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CB14E11F259024006CC725 /* HWHAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHAppDelegate.swift; sourceTree = "<group>"; };
+		F7CB14E31F259024006CC725 /* HWHBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHBaseCell.swift; sourceTree = "<group>"; };
+		F7CB14E41F259024006CC725 /* HWHBaseM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHBaseM.swift; sourceTree = "<group>"; };
+		F7CB14E51F259024006CC725 /* HWHBaseNaviC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHBaseNaviC.swift; sourceTree = "<group>"; };
+		F7CB14E61F259024006CC725 /* HWHBaseTabBarC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHBaseTabBarC.swift; sourceTree = "<group>"; };
+		F7CB14E71F259024006CC725 /* HWHBaseV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHBaseV.swift; sourceTree = "<group>"; };
+		F7CB14E81F259024006CC725 /* HWHBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHBaseVC.swift; sourceTree = "<group>"; };
+		F7CB14EB1F259024006CC725 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F7CB14EC1F259024006CC725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F7CB14ED1F259024006CC725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F7CB14EE1F259024006CC725 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F7CB14EF1F259024006CC725 /* HWHDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHDataManager.swift; sourceTree = "<group>"; };
+		F7CB14F01F259024006CC725 /* HWHIconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHIconManager.swift; sourceTree = "<group>"; };
+		F7CB14F11F259024006CC725 /* HWHLanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHLanguageManager.swift; sourceTree = "<group>"; };
+		F7CB14F21F259024006CC725 /* HWHLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHLocationManager.swift; sourceTree = "<group>"; };
+		F7CB14F31F259024006CC725 /* HWHStyleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHStyleManager.swift; sourceTree = "<group>"; };
+		F7CB14F41F259024006CC725 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7CB14F51F259024006CC725 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F7CB14F61F259024006CC725 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F7CB14FA1F259024006CC725 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F7CB14FD1F259024006CC725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7CB14FE1F259024006CC725 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F7CB14FF1F259024006CC725 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F7CB15001F259024006CC725 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F7CB15131F259117006CC725 /* HWHControlsC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHControlsC.swift; sourceTree = "<group>"; };
+		F7CB15151F259123006CC725 /* HWHDeviceC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHDeviceC.swift; sourceTree = "<group>"; };
+		F7CB15171F259133006CC725 /* HWHNewTechC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHNewTechC.swift; sourceTree = "<group>"; };
+		F7CB15191F260F9F006CC725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7CB14C71F258FF3006CC725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7CB14C11F258FF2006CC725 = {
+			isa = PBXGroup;
+			children = (
+				F7CB14DF1F259024006CC725 /* SwiftPractitioner */,
+				F7CB14CB1F258FF3006CC725 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7CB14CB1F258FF3006CC725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB14CA1F258FF3006CC725 /* SwiftPractitioner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7CB14DF1F259024006CC725 /* SwiftPractitioner */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB14E01F259024006CC725 /* Application */,
+				F7CB14E21F259024006CC725 /* BaseClass */,
+				F7CB14E91F259024006CC725 /* Configuration */,
+				F7CB14F71F259024006CC725 /* Modules */,
+				F7CB14F81F259024006CC725 /* Resource */,
+				F7CB15011F259024006CC725 /* Tools */,
+			);
+			path = SwiftPractitioner;
+			sourceTree = "<group>";
+		};
+		F7CB14E01F259024006CC725 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB14E11F259024006CC725 /* HWHAppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F7CB14E21F259024006CC725 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB14E31F259024006CC725 /* HWHBaseCell.swift */,
+				F7CB14E41F259024006CC725 /* HWHBaseM.swift */,
+				F7CB14E51F259024006CC725 /* HWHBaseNaviC.swift */,
+				F7CB14E61F259024006CC725 /* HWHBaseTabBarC.swift */,
+				F7CB14E71F259024006CC725 /* HWHBaseV.swift */,
+				F7CB14E81F259024006CC725 /* HWHBaseVC.swift */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		F7CB14E91F259024006CC725 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB14EA1F259024006CC725 /* Localizable.strings */,
+				F7CB14EF1F259024006CC725 /* HWHDataManager.swift */,
+				F7CB14F01F259024006CC725 /* HWHIconManager.swift */,
+				F7CB14F11F259024006CC725 /* HWHLanguageManager.swift */,
+				F7CB14F21F259024006CC725 /* HWHLocationManager.swift */,
+				F7CB14F31F259024006CC725 /* HWHStyleManager.swift */,
+				F7CB14F41F259024006CC725 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		F7CB14F71F259024006CC725 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB15151F259123006CC725 /* HWHDeviceC.swift */,
+				F7CB15131F259117006CC725 /* HWHControlsC.swift */,
+				F7CB15171F259133006CC725 /* HWHNewTechC.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F7CB14F81F259024006CC725 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB15191F260F9F006CC725 /* Assets.xcassets */,
+				F7CB14F91F259024006CC725 /* LaunchScreen.strings */,
+				F7CB14FC1F259024006CC725 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F7CB15011F259024006CC725 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7CB14C91F258FF3006CC725 /* SwiftPractitioner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CB14DC1F258FF3006CC725 /* Build configuration list for PBXNativeTarget "SwiftPractitioner" */;
+			buildPhases = (
+				F7CB14C61F258FF3006CC725 /* Sources */,
+				F7CB14C71F258FF3006CC725 /* Frameworks */,
+				F7CB14C81F258FF3006CC725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftPractitioner;
+			productName = SwiftPractitioner;
+			productReference = F7CB14CA1F258FF3006CC725 /* SwiftPractitioner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7CB14C21F258FF2006CC725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Louishwh;
+				TargetAttributes = {
+					F7CB14C91F258FF3006CC725 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6PZSAS9DVF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F7CB14C51F258FF2006CC725 /* Build configuration list for PBXProject "SwiftPractitioner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				fr,
+				ru,
+				"zh-Hans",
+			);
+			mainGroup = F7CB14C11F258FF2006CC725;
+			productRefGroup = F7CB14CB1F258FF3006CC725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7CB14C91F258FF3006CC725 /* SwiftPractitioner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7CB14C81F258FF3006CC725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CB150F1F259024006CC725 /* Info.plist in Resources */,
+				F7CB15101F259024006CC725 /* LaunchScreen.strings in Resources */,
+				F7CB15121F259024006CC725 /* LaunchScreen.storyboard in Resources */,
+				F7CB15091F259024006CC725 /* Localizable.strings in Resources */,
+				F7CB151A1F260F9F006CC725 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7CB14C61F258FF3006CC725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CB15051F259024006CC725 /* HWHBaseNaviC.swift in Sources */,
+				F7CB150B1F259024006CC725 /* HWHIconManager.swift in Sources */,
+				F7CB15061F259024006CC725 /* HWHBaseTabBarC.swift in Sources */,
+				F7CB150E1F259024006CC725 /* HWHStyleManager.swift in Sources */,
+				F7CB15031F259024006CC725 /* HWHBaseCell.swift in Sources */,
+				F7CB15181F259133006CC725 /* HWHNewTechC.swift in Sources */,
+				F7CB150A1F259024006CC725 /* HWHDataManager.swift in Sources */,
+				F7CB150C1F259024006CC725 /* HWHLanguageManager.swift in Sources */,
+				F7CB15021F259024006CC725 /* HWHAppDelegate.swift in Sources */,
+				F7CB15081F259024006CC725 /* HWHBaseVC.swift in Sources */,
+				F7CB15161F259123006CC725 /* HWHDeviceC.swift in Sources */,
+				F7CB15141F259117006CC725 /* HWHControlsC.swift in Sources */,
+				F7CB150D1F259024006CC725 /* HWHLocationManager.swift in Sources */,
+				F7CB15041F259024006CC725 /* HWHBaseM.swift in Sources */,
+				F7CB15071F259024006CC725 /* HWHBaseV.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7CB14EA1F259024006CC725 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CB14EB1F259024006CC725 /* ar */,
+				F7CB14EC1F259024006CC725 /* Base */,
+				F7CB14ED1F259024006CC725 /* en */,
+				F7CB14EE1F259024006CC725 /* fr */,
+				F7CB14F51F259024006CC725 /* ru */,
+				F7CB14F61F259024006CC725 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F7CB14F91F259024006CC725 /* LaunchScreen.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CB14FA1F259024006CC725 /* ar */,
+				F7CB14FE1F259024006CC725 /* fr */,
+				F7CB14FF1F259024006CC725 /* ru */,
+				F7CB15001F259024006CC725 /* zh-Hans */,
+			);
+			name = LaunchScreen.strings;
+			sourceTree = "<group>";
+		};
+		F7CB14FC1F259024006CC725 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CB14FD1F259024006CC725 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7CB14DA1F258FF3006CC725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7CB14DB1F258FF3006CC725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7CB14DD1F258FF3006CC725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 6PZSAS9DVF;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftPractitioner/Configuration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.louishwh.SwiftPractitioner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F7CB14DE1F258FF3006CC725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 6PZSAS9DVF;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftPractitioner/Configuration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.louishwh.SwiftPractitioner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7CB14C51F258FF2006CC725 /* Build configuration list for PBXProject "SwiftPractitioner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CB14DA1F258FF3006CC725 /* Debug */,
+				F7CB14DB1F258FF3006CC725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CB14DC1F258FF3006CC725 /* Build configuration list for PBXNativeTarget "SwiftPractitioner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CB14DD1F258FF3006CC725 /* Debug */,
+				F7CB14DE1F258FF3006CC725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7CB14C21F258FF2006CC725 /* Project object */;
+}
