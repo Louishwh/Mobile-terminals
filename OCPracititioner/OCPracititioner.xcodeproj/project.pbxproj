@@ -7,25 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F7CB14AC1F258FCA006CC725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14AB1F258FCA006CC725 /* main.m */; };
-		F7CB14AF1F258FCA006CC725 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14AE1F258FCA006CC725 /* AppDelegate.m */; };
-		F7CB14B21F258FCA006CC725 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14B11F258FCA006CC725 /* ViewController.m */; };
-		F7CB14B51F258FCA006CC725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CB14B31F258FCA006CC725 /* Main.storyboard */; };
-		F7CB14B71F258FCA006CC725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CB14B61F258FCA006CC725 /* Assets.xcassets */; };
-		F7CB14BA1F258FCA006CC725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CB14B81F258FCA006CC725 /* LaunchScreen.storyboard */; };
+		F7CB15321F26C674006CC725 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB151E1F26C674006CC725 /* AppDelegate.m */; };
+		F7CB15331F26C674006CC725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB151F1F26C674006CC725 /* main.m */; };
+		F7CB15341F26C674006CC725 /* HWHBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15221F26C674006CC725 /* HWHBaseCell.m */; };
+		F7CB15351F26C674006CC725 /* HWHBaseM.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15241F26C674006CC725 /* HWHBaseM.m */; };
+		F7CB15361F26C674006CC725 /* HWHBaseNaviC.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15261F26C674006CC725 /* HWHBaseNaviC.m */; };
+		F7CB15371F26C674006CC725 /* HWHBaseC.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15281F26C674006CC725 /* HWHBaseC.m */; };
+		F7CB15381F26C674006CC725 /* HWHBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB152A1F26C674006CC725 /* HWHBaseView.m */; };
+		F7CB153A1F26C674006CC725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CB152F1F26C674006CC725 /* Assets.xcassets */; };
+		F7CB153B1F26C674006CC725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CB15301F26C674006CC725 /* LaunchScreen.storyboard */; };
+		F7CB155B1F26D04B006CC725 /* HWHBaseTabBarC.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB155A1F26D04B006CC725 /* HWHBaseTabBarC.m */; };
+		F7CB15621F26D22E006CC725 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7CB15641F26D22E006CC725 /* Localizable.strings */; };
+		F7CB159A1F26E553006CC725 /* HWHControlsC.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15931F26E553006CC725 /* HWHControlsC.m */; };
+		F7CB159B1F26E553006CC725 /* HWHDeviceC.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15961F26E553006CC725 /* HWHDeviceC.m */; };
+		F7CB159C1F26E553006CC725 /* HWHNewTechC.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15991F26E553006CC725 /* HWHNewTechC.m */; };
+		F7CB15DA1F26E926006CC725 /* HWHDeviceMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15C31F26E926006CC725 /* HWHDeviceMessages.m */; };
+		F7CB15DB1F26E926006CC725 /* HWHConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15C51F26E926006CC725 /* HWHConstant.m */; };
+		F7CB15DC1F26E926006CC725 /* UIImage+Icon.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15C81F26E926006CC725 /* UIImage+Icon.m */; };
+		F7CB15DD1F26E926006CC725 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15CB1F26E926006CC725 /* NSBundle+Language.m */; };
+		F7CB15DE1F26E926006CC725 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15CE1F26E926006CC725 /* LocationManager.m */; };
+		F7CB15DF1F26E926006CC725 /* LocationTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15D01F26E926006CC725 /* LocationTransformer.m */; };
+		F7CB15E01F26E926006CC725 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15D31F26E926006CC725 /* Reachability.m */; };
+		F7CB15E21F26E926006CC725 /* UIViewController+Present.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15D91F26E926006CC725 /* UIViewController+Present.m */; };
+		F7CB15E41F26EA34006CC725 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CB15E31F26EA34006CC725 /* Storyboard.storyboard */; };
+		F7F674ED1F27303B0002D9B1 /* HWHConfigC.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F674EC1F27303B0002D9B1 /* HWHConfigC.m */; };
+		F7F674F31F27316E0002D9B1 /* HWHConfigLanguageC.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F674F21F27316E0002D9B1 /* HWHConfigLanguageC.m */; };
+		F7F674F61F2735350002D9B1 /* HWHConfigurer.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F674F51F2735350002D9B1 /* HWHConfigurer.m */; };
+		F7F674F91F27370D0002D9B1 /* UIView+HWHButtonV.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F674F81F27370D0002D9B1 /* UIView+HWHButtonV.m */; };
+		F7F674FC1F273E800002D9B1 /* UIColor+HWHColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F674FB1F273E800002D9B1 /* UIColor+HWHColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F7CB14A71F258FCA006CC725 /* OCPracititioner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCPracititioner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7CB14AB1F258FCA006CC725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F7CB14AD1F258FCA006CC725 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F7CB14AE1F258FCA006CC725 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F7CB14B01F258FCA006CC725 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F7CB14B11F258FCA006CC725 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F7CB14B41F258FCA006CC725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F7CB14B61F258FCA006CC725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F7CB14B91F258FCA006CC725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F7CB14BB1F258FCA006CC725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7CB151D1F26C674006CC725 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7CB151E1F26C674006CC725 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7CB151F1F26C674006CC725 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7CB15211F26C674006CC725 /* HWHBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHBaseCell.h; sourceTree = "<group>"; };
+		F7CB15221F26C674006CC725 /* HWHBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHBaseCell.m; sourceTree = "<group>"; };
+		F7CB15231F26C674006CC725 /* HWHBaseM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHBaseM.h; sourceTree = "<group>"; };
+		F7CB15241F26C674006CC725 /* HWHBaseM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHBaseM.m; sourceTree = "<group>"; };
+		F7CB15251F26C674006CC725 /* HWHBaseNaviC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHBaseNaviC.h; sourceTree = "<group>"; };
+		F7CB15261F26C674006CC725 /* HWHBaseNaviC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHBaseNaviC.m; sourceTree = "<group>"; };
+		F7CB15271F26C674006CC725 /* HWHBaseC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHBaseC.h; sourceTree = "<group>"; };
+		F7CB15281F26C674006CC725 /* HWHBaseC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHBaseC.m; sourceTree = "<group>"; };
+		F7CB15291F26C674006CC725 /* HWHBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHBaseView.h; sourceTree = "<group>"; };
+		F7CB152A1F26C674006CC725 /* HWHBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHBaseView.m; sourceTree = "<group>"; };
+		F7CB152C1F26C674006CC725 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7CB152F1F26C674006CC725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7CB15311F26C674006CC725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7CB15591F26D04B006CC725 /* HWHBaseTabBarC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHBaseTabBarC.h; sourceTree = "<group>"; };
+		F7CB155A1F26D04B006CC725 /* HWHBaseTabBarC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHBaseTabBarC.m; sourceTree = "<group>"; };
+		F7CB155E1F26D1EE006CC725 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F7CB155F1F26D1F3006CC725 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F7CB15601F26D1FF006CC725 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F7CB15611F26D205006CC725 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F7CB15631F26D22E006CC725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F7CB15651F26D230006CC725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F7CB15661F26D230006CC725 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F7CB15671F26D230006CC725 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F7CB15681F26D231006CC725 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F7CB15691F26D232006CC725 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F7CB15921F26E553006CC725 /* HWHControlsC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHControlsC.h; sourceTree = "<group>"; };
+		F7CB15931F26E553006CC725 /* HWHControlsC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHControlsC.m; sourceTree = "<group>"; };
+		F7CB15951F26E553006CC725 /* HWHDeviceC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHDeviceC.h; sourceTree = "<group>"; };
+		F7CB15961F26E553006CC725 /* HWHDeviceC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHDeviceC.m; sourceTree = "<group>"; };
+		F7CB15981F26E553006CC725 /* HWHNewTechC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHNewTechC.h; sourceTree = "<group>"; };
+		F7CB15991F26E553006CC725 /* HWHNewTechC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHNewTechC.m; sourceTree = "<group>"; };
+		F7CB15C21F26E926006CC725 /* HWHDeviceMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHDeviceMessages.h; sourceTree = "<group>"; };
+		F7CB15C31F26E926006CC725 /* HWHDeviceMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHDeviceMessages.m; sourceTree = "<group>"; };
+		F7CB15C41F26E926006CC725 /* HWHConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHConstant.h; sourceTree = "<group>"; };
+		F7CB15C51F26E926006CC725 /* HWHConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHConstant.m; sourceTree = "<group>"; };
+		F7CB15C71F26E926006CC725 /* UIImage+Icon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Icon.h"; sourceTree = "<group>"; };
+		F7CB15C81F26E926006CC725 /* UIImage+Icon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Icon.m"; sourceTree = "<group>"; };
+		F7CB15CA1F26E926006CC725 /* NSBundle+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
+		F7CB15CB1F26E926006CC725 /* NSBundle+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
+		F7CB15CD1F26E926006CC725 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		F7CB15CE1F26E926006CC725 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		F7CB15CF1F26E926006CC725 /* LocationTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTransformer.h; sourceTree = "<group>"; };
+		F7CB15D01F26E926006CC725 /* LocationTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTransformer.m; sourceTree = "<group>"; };
+		F7CB15D21F26E926006CC725 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F7CB15D31F26E926006CC725 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F7CB15D81F26E926006CC725 /* UIViewController+Present.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Present.h"; sourceTree = "<group>"; };
+		F7CB15D91F26E926006CC725 /* UIViewController+Present.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Present.m"; sourceTree = "<group>"; };
+		F7CB15E31F26EA34006CC725 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		F7F674EB1F27303B0002D9B1 /* HWHConfigC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHConfigC.h; sourceTree = "<group>"; };
+		F7F674EC1F27303B0002D9B1 /* HWHConfigC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHConfigC.m; sourceTree = "<group>"; };
+		F7F674F11F27316E0002D9B1 /* HWHConfigLanguageC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHConfigLanguageC.h; sourceTree = "<group>"; };
+		F7F674F21F27316E0002D9B1 /* HWHConfigLanguageC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHConfigLanguageC.m; sourceTree = "<group>"; };
+		F7F674F41F2735350002D9B1 /* HWHConfigurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWHConfigurer.h; path = ../HWHConfigurer.h; sourceTree = "<group>"; };
+		F7F674F51F2735350002D9B1 /* HWHConfigurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HWHConfigurer.m; path = ../HWHConfigurer.m; sourceTree = "<group>"; };
+		F7F674F71F27370D0002D9B1 /* UIView+HWHButtonV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HWHButtonV.h"; sourceTree = "<group>"; };
+		F7F674F81F27370D0002D9B1 /* UIView+HWHButtonV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HWHButtonV.m"; sourceTree = "<group>"; };
+		F7F674FA1F273E800002D9B1 /* UIColor+HWHColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HWHColor.h"; sourceTree = "<group>"; };
+		F7F674FB1F273E800002D9B1 /* UIColor+HWHColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HWHColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +116,7 @@
 		F7CB149E1F258FCA006CC725 = {
 			isa = PBXGroup;
 			children = (
-				F7CB14A91F258FCA006CC725 /* OCPracititioner */,
+				F7CB151B1F26C674006CC725 /* OCPracititioner */,
 				F7CB14A81F258FCA006CC725 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,28 +129,191 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7CB14A91F258FCA006CC725 /* OCPracititioner */ = {
+		F7CB151B1F26C674006CC725 /* OCPracititioner */ = {
 			isa = PBXGroup;
 			children = (
-				F7CB14AD1F258FCA006CC725 /* AppDelegate.h */,
-				F7CB14AE1F258FCA006CC725 /* AppDelegate.m */,
-				F7CB14B01F258FCA006CC725 /* ViewController.h */,
-				F7CB14B11F258FCA006CC725 /* ViewController.m */,
-				F7CB14B31F258FCA006CC725 /* Main.storyboard */,
-				F7CB14B61F258FCA006CC725 /* Assets.xcassets */,
-				F7CB14B81F258FCA006CC725 /* LaunchScreen.storyboard */,
-				F7CB14BB1F258FCA006CC725 /* Info.plist */,
-				F7CB14AA1F258FCA006CC725 /* Supporting Files */,
+				F7CB151C1F26C674006CC725 /* App */,
+				F7CB15201F26C674006CC725 /* BaseClass */,
+				F7CB152B1F26C674006CC725 /* Config */,
+				F7CB152D1F26C674006CC725 /* Modules */,
+				F7CB152E1F26C674006CC725 /* Resources */,
+				F7CB15C01F26E926006CC725 /* Tools */,
 			);
 			path = OCPracititioner;
 			sourceTree = "<group>";
 		};
-		F7CB14AA1F258FCA006CC725 /* Supporting Files */ = {
+		F7CB151C1F26C674006CC725 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				F7CB14AB1F258FCA006CC725 /* main.m */,
+				F7CB151F1F26C674006CC725 /* main.m */,
+				F7CB151D1F26C674006CC725 /* AppDelegate.h */,
+				F7CB151E1F26C674006CC725 /* AppDelegate.m */,
+				F7CB15E31F26EA34006CC725 /* Storyboard.storyboard */,
 			);
-			name = "Supporting Files";
+			path = App;
+			sourceTree = "<group>";
+		};
+		F7CB15201F26C674006CC725 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB15591F26D04B006CC725 /* HWHBaseTabBarC.h */,
+				F7CB155A1F26D04B006CC725 /* HWHBaseTabBarC.m */,
+				F7CB15251F26C674006CC725 /* HWHBaseNaviC.h */,
+				F7CB15261F26C674006CC725 /* HWHBaseNaviC.m */,
+				F7CB15211F26C674006CC725 /* HWHBaseCell.h */,
+				F7CB15221F26C674006CC725 /* HWHBaseCell.m */,
+				F7CB15231F26C674006CC725 /* HWHBaseM.h */,
+				F7CB15241F26C674006CC725 /* HWHBaseM.m */,
+				F7CB15271F26C674006CC725 /* HWHBaseC.h */,
+				F7CB15281F26C674006CC725 /* HWHBaseC.m */,
+				F7CB15291F26C674006CC725 /* HWHBaseView.h */,
+				F7CB152A1F26C674006CC725 /* HWHBaseView.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		F7CB152B1F26C674006CC725 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB152C1F26C674006CC725 /* Info.plist */,
+				F7CB15641F26D22E006CC725 /* Localizable.strings */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		F7CB152D1F26C674006CC725 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F7F674EA1F27302B0002D9B1 /* Config */,
+				F7CB15911F26E553006CC725 /* Controls */,
+				F7CB15941F26E553006CC725 /* Device */,
+				F7CB15971F26E553006CC725 /* NewTech */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F7CB152E1F26C674006CC725 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB152F1F26C674006CC725 /* Assets.xcassets */,
+				F7CB15301F26C674006CC725 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F7CB15911F26E553006CC725 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB15921F26E553006CC725 /* HWHControlsC.h */,
+				F7CB15931F26E553006CC725 /* HWHControlsC.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		F7CB15941F26E553006CC725 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB15951F26E553006CC725 /* HWHDeviceC.h */,
+				F7CB15961F26E553006CC725 /* HWHDeviceC.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		F7CB15971F26E553006CC725 /* NewTech */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB15981F26E553006CC725 /* HWHNewTechC.h */,
+				F7CB15991F26E553006CC725 /* HWHNewTechC.m */,
+			);
+			path = NewTech;
+			sourceTree = "<group>";
+		};
+		F7CB15C01F26E926006CC725 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB15C11F26E926006CC725 /* Device */,
+				F7CB15C41F26E926006CC725 /* HWHConstant.h */,
+				F7CB15C51F26E926006CC725 /* HWHConstant.m */,
+				F7CB15C61F26E926006CC725 /* Images */,
+				F7CB15C91F26E926006CC725 /* Languages */,
+				F7CB15CC1F26E926006CC725 /* Location */,
+				F7CB15D11F26E926006CC725 /* NetStatus */,
+				F7CB15D41F26E926006CC725 /* Single */,
+				F7CB15D81F26E926006CC725 /* UIViewController+Present.h */,
+				F7CB15D91F26E926006CC725 /* UIViewController+Present.m */,
+				F7F674F71F27370D0002D9B1 /* UIView+HWHButtonV.h */,
+				F7F674F81F27370D0002D9B1 /* UIView+HWHButtonV.m */,
+				F7F674FA1F273E800002D9B1 /* UIColor+HWHColor.h */,
+				F7F674FB1F273E800002D9B1 /* UIColor+HWHColor.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F7CB15C11F26E926006CC725 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				F7F674F41F2735350002D9B1 /* HWHConfigurer.h */,
+				F7F674F51F2735350002D9B1 /* HWHConfigurer.m */,
+				F7CB15C21F26E926006CC725 /* HWHDeviceMessages.h */,
+				F7CB15C31F26E926006CC725 /* HWHDeviceMessages.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		F7CB15C61F26E926006CC725 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB15C71F26E926006CC725 /* UIImage+Icon.h */,
+				F7CB15C81F26E926006CC725 /* UIImage+Icon.m */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F7CB15C91F26E926006CC725 /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB15CA1F26E926006CC725 /* NSBundle+Language.h */,
+				F7CB15CB1F26E926006CC725 /* NSBundle+Language.m */,
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+		F7CB15CC1F26E926006CC725 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB15CD1F26E926006CC725 /* LocationManager.h */,
+				F7CB15CE1F26E926006CC725 /* LocationManager.m */,
+				F7CB15CF1F26E926006CC725 /* LocationTransformer.h */,
+				F7CB15D01F26E926006CC725 /* LocationTransformer.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		F7CB15D11F26E926006CC725 /* NetStatus */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB15D21F26E926006CC725 /* Reachability.h */,
+				F7CB15D31F26E926006CC725 /* Reachability.m */,
+			);
+			path = NetStatus;
+			sourceTree = "<group>";
+		};
+		F7CB15D41F26E926006CC725 /* Single */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Single;
+			sourceTree = "<group>";
+		};
+		F7F674EA1F27302B0002D9B1 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F7F674EB1F27303B0002D9B1 /* HWHConfigC.h */,
+				F7F674EC1F27303B0002D9B1 /* HWHConfigC.m */,
+				F7F674F11F27316E0002D9B1 /* HWHConfigLanguageC.h */,
+				F7F674F21F27316E0002D9B1 /* HWHConfigLanguageC.m */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +342,7 @@
 		F7CB149F1F258FCA006CC725 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HWH;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Louishwh;
 				TargetAttributes = {
@@ -122,6 +360,10 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				ar,
+				"zh-Hans",
+				ru,
 			);
 			mainGroup = F7CB149E1F258FCA006CC725;
 			productRefGroup = F7CB14A81F258FCA006CC725 /* Products */;
@@ -138,9 +380,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7CB14BA1F258FCA006CC725 /* LaunchScreen.storyboard in Resources */,
-				F7CB14B71F258FCA006CC725 /* Assets.xcassets in Resources */,
-				F7CB14B51F258FCA006CC725 /* Main.storyboard in Resources */,
+				F7CB153B1F26C674006CC725 /* LaunchScreen.storyboard in Resources */,
+				F7CB15621F26D22E006CC725 /* Localizable.strings in Resources */,
+				F7CB153A1F26C674006CC725 /* Assets.xcassets in Resources */,
+				F7CB15E41F26EA34006CC725 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,29 +394,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7CB14B21F258FCA006CC725 /* ViewController.m in Sources */,
-				F7CB14AF1F258FCA006CC725 /* AppDelegate.m in Sources */,
-				F7CB14AC1F258FCA006CC725 /* main.m in Sources */,
+				F7CB15DE1F26E926006CC725 /* LocationManager.m in Sources */,
+				F7F674F61F2735350002D9B1 /* HWHConfigurer.m in Sources */,
+				F7CB15351F26C674006CC725 /* HWHBaseM.m in Sources */,
+				F7CB159B1F26E553006CC725 /* HWHDeviceC.m in Sources */,
+				F7CB15361F26C674006CC725 /* HWHBaseNaviC.m in Sources */,
+				F7CB15331F26C674006CC725 /* main.m in Sources */,
+				F7CB15E21F26E926006CC725 /* UIViewController+Present.m in Sources */,
+				F7CB159C1F26E553006CC725 /* HWHNewTechC.m in Sources */,
+				F7CB15DA1F26E926006CC725 /* HWHDeviceMessages.m in Sources */,
+				F7CB159A1F26E553006CC725 /* HWHControlsC.m in Sources */,
+				F7CB15341F26C674006CC725 /* HWHBaseCell.m in Sources */,
+				F7CB15DC1F26E926006CC725 /* UIImage+Icon.m in Sources */,
+				F7F674ED1F27303B0002D9B1 /* HWHConfigC.m in Sources */,
+				F7CB15381F26C674006CC725 /* HWHBaseView.m in Sources */,
+				F7CB15321F26C674006CC725 /* AppDelegate.m in Sources */,
+				F7CB15DD1F26E926006CC725 /* NSBundle+Language.m in Sources */,
+				F7CB15DB1F26E926006CC725 /* HWHConstant.m in Sources */,
+				F7F674F91F27370D0002D9B1 /* UIView+HWHButtonV.m in Sources */,
+				F7CB15DF1F26E926006CC725 /* LocationTransformer.m in Sources */,
+				F7F674FC1F273E800002D9B1 /* UIColor+HWHColor.m in Sources */,
+				F7CB15371F26C674006CC725 /* HWHBaseC.m in Sources */,
+				F7F674F31F27316E0002D9B1 /* HWHConfigLanguageC.m in Sources */,
+				F7CB15E01F26E926006CC725 /* Reachability.m in Sources */,
+				F7CB155B1F26D04B006CC725 /* HWHBaseTabBarC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F7CB14B31F258FCA006CC725 /* Main.storyboard */ = {
+		F7CB15301F26C674006CC725 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F7CB14B41F258FCA006CC725 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F7CB14B81F258FCA006CC725 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7CB14B91F258FCA006CC725 /* Base */,
+				F7CB15311F26C674006CC725 /* Base */,
+				F7CB155E1F26D1EE006CC725 /* fr */,
+				F7CB155F1F26D1F3006CC725 /* zh-Hans */,
+				F7CB15601F26D1FF006CC725 /* ar */,
+				F7CB15611F26D205006CC725 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F7CB15641F26D22E006CC725 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CB15631F26D22E006CC725 /* Base */,
+				F7CB15651F26D230006CC725 /* en */,
+				F7CB15661F26D230006CC725 /* fr */,
+				F7CB15671F26D230006CC725 /* ar */,
+				F7CB15681F26D231006CC725 /* zh-Hans */,
+				F7CB15691F26D232006CC725 /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -183,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -232,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -276,7 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6PZSAS9DVF;
-				INFOPLIST_FILE = OCPracititioner/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OCPracititioner/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = top.louishwh.OCPracititioner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,7 +563,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6PZSAS9DVF;
-				INFOPLIST_FILE = OCPracititioner/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OCPracititioner/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = top.louishwh.OCPracititioner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -314,6 +589,7 @@
 				F7CB14C01F258FCA006CC725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
