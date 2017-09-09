@@ -10,11 +10,12 @@ import UIKit
 
 class HWHDeviceC: HWHBaseVC {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
+    override func buildView() -> UIView {
         
+        stateBarStyle = .lightContent
+        return UIView()
     }
+
     
 
 }

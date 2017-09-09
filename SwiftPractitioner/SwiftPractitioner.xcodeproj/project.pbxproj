@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D96A8E0A1F638B4C005707B6 /* HWHBaseTableC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A8E091F638B4C005707B6 /* HWHBaseTableC.swift */; };
 		F7CB15021F259024006CC725 /* HWHAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14E11F259024006CC725 /* HWHAppDelegate.swift */; };
 		F7CB15031F259024006CC725 /* HWHBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14E31F259024006CC725 /* HWHBaseCell.swift */; };
 		F7CB15041F259024006CC725 /* HWHBaseM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14E41F259024006CC725 /* HWHBaseM.swift */; };
@@ -20,7 +21,6 @@
 		F7CB150C1F259024006CC725 /* HWHLanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14F11F259024006CC725 /* HWHLanguageManager.swift */; };
 		F7CB150D1F259024006CC725 /* HWHLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14F21F259024006CC725 /* HWHLocationManager.swift */; };
 		F7CB150E1F259024006CC725 /* HWHStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB14F31F259024006CC725 /* HWHStyleManager.swift */; };
-		F7CB150F1F259024006CC725 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7CB14F41F259024006CC725 /* Info.plist */; };
 		F7CB15101F259024006CC725 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7CB14F91F259024006CC725 /* LaunchScreen.strings */; };
 		F7CB15121F259024006CC725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CB14FC1F259024006CC725 /* LaunchScreen.storyboard */; };
 		F7CB15141F259117006CC725 /* HWHControlsC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB15131F259117006CC725 /* HWHControlsC.swift */; };
@@ -30,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D96A8E091F638B4C005707B6 /* HWHBaseTableC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHBaseTableC.swift; sourceTree = "<group>"; };
 		F7CB14CA1F258FF3006CC725 /* SwiftPractitioner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPractitioner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CB14E11F259024006CC725 /* HWHAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHAppDelegate.swift; sourceTree = "<group>"; };
 		F7CB14E31F259024006CC725 /* HWHBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWHBaseCell.swift; sourceTree = "<group>"; };
@@ -118,6 +119,7 @@
 				F7CB14E61F259024006CC725 /* HWHBaseTabBarC.swift */,
 				F7CB14E71F259024006CC725 /* HWHBaseV.swift */,
 				F7CB14E81F259024006CC725 /* HWHBaseVC.swift */,
+				D96A8E091F638B4C005707B6 /* HWHBaseTableC.swift */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -227,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7CB150F1F259024006CC725 /* Info.plist in Resources */,
 				F7CB15101F259024006CC725 /* LaunchScreen.strings in Resources */,
 				F7CB15121F259024006CC725 /* LaunchScreen.storyboard in Resources */,
 				F7CB15091F259024006CC725 /* Localizable.strings in Resources */,
@@ -253,6 +254,7 @@
 				F7CB15021F259024006CC725 /* HWHAppDelegate.swift in Sources */,
 				F7CB15081F259024006CC725 /* HWHBaseVC.swift in Sources */,
 				F7CB15161F259123006CC725 /* HWHDeviceC.swift in Sources */,
+				D96A8E0A1F638B4C005707B6 /* HWHBaseTableC.swift in Sources */,
 				F7CB15141F259117006CC725 /* HWHControlsC.swift in Sources */,
 				F7CB150D1F259024006CC725 /* HWHLocationManager.swift in Sources */,
 				F7CB15041F259024006CC725 /* HWHBaseM.swift in Sources */,
